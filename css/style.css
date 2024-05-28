@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
 	background-color: orange;
 }
@@ -70,7 +74,7 @@ main {
 .label {
 	color: white;
 	position: absolute;
-	bottom: 50px;
+	bottom: 100px;
 }
 
 .discount {
@@ -96,3 +100,30 @@ main {
 	font-size: 30px;
 }
 
+.m-content:hover .heart {
+	color: red;
+}
+
+.visible-pic {
+	display: block;
+}
+
+.hidden-pic {
+	display: none;
+}
+
+.m-content:hover .visible-pic {
+	display: none;
+}
+
+.m-content:hover .hidden-pic {
+	display: block;
+}
+
+.cd-brand {
+	font-size: 15px;
+}
+
+.price-red {
+	color: red;
+}
