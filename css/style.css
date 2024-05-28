@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	background-color: orange;
+}
+
+footer {
+	background-color: black;
+}
+
+/*COMMON ELEMENTS*/
+main {
+	margin: 20PX;
+}
+
+/*LAYOUT CLASSES*/
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.col-25 {
+	width: 25%;
+	border: 1px solid greenyellow;
+	height: 155px;
+}
+
+.col-60 {
+	width: 60%;
+	border: 1px solid greenyellow;
+	height: 155px;
+}
+
+.col-15 {
+	width: 15%;
+	border: 1px solid greenyellow;
+	height: 155px;
+}
+
+.col-33 {
+	width: calc(100% / 3);
+}
+
+.col-50 {
+	width: 50%;
+	height: 200px;
+}
+
+/*PAGE STYLES*/
+
+.m-content {
+	background-color: red;
+	border: 1px solid black;
+	height: 300px;
+}
