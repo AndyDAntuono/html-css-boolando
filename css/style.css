@@ -10,6 +10,7 @@ body {
 
 header {
 	background-color: orange;
+	color: white;
 }
 
 footer {
@@ -33,22 +34,16 @@ main {
 	flex-wrap: wrap;
 }
 
-.col-25 {
-	width: 25%;
-	border: 1px solid greenyellow;
-	height: 155px;
-}
-
-.col-60 {
-	width: 60%;
-	border: 1px solid greenyellow;
-	height: 155px;
-}
-
 .col-15 {
 	width: 15%;
 	border: 1px solid greenyellow;
-	height: 155px;
+	height: 70px;
+}
+
+.col-25 {
+	width: 25%;
+	border: 1px solid greenyellow;
+	height: 70px;
 }
 
 .col-33 {
@@ -57,10 +52,60 @@ main {
 
 .col-50 {
 	width: 50%;
-	height: 200px;
+	height: 100px;
+}
+
+.col-60 {
+	width: 60%;
+	border: 1px solid greenyellow;
+	height: 70px;
 }
 
 /*PAGE STYLES*/
+
+.nav {
+	height: 70px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.h-content-center {
+	height: 70px;
+	width: 100%;
+	position: relative;
+}
+
+
+.boolean-logo {
+	max-width: 35%;
+	max-height: 35%;
+	position: absolute;
+	right: 340px;
+	bottom: 25px;
+}
+
+.h-icons {
+	font-size: 15px;
+	color: white;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.fa-regular.fa-user {
+	margin-left: 10px;
+}
+
+.fa-regular.fa-heart {
+	margin-left: 10px;
+}
+
+.fa-solid.fa-bag-shopping {
+	margin-left: 10px;
+}
 
 .m-content {
 	margin: 10px;
@@ -127,3 +172,8 @@ main {
 .price-red {
 	color: red;
 }
+
+/*UTILITY CLASSES*/
+
+/*SPECIFC STYLING SELECTOR AND CLASSES*/
+
