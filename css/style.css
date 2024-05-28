@@ -15,6 +15,7 @@ header {
 
 footer {
 	background-color: black;
+	color: white;
 }
 
 /*COMMON ELEMENTS*/
@@ -171,6 +172,29 @@ main {
 
 .price-red {
 	color: red;
+}
+
+.footer-right-content {
+	height: 90px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.footer-left-content {
+	height: 90px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+.info {
+	font-size: 12px;
+	margin-right: 10px;
 }
 
 /*UTILITY CLASSES*/
